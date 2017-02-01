@@ -6,6 +6,7 @@ body{
 
 #header{
 
+  width: 300px;
   height: 455px;
   background-image: url('../img/logo-iut.jpg');
   background-size: 300px;
