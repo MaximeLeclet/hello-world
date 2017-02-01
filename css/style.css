@@ -18,6 +18,10 @@ background-color : red;
 
 @media screen and (max-width: 480px){
 
-    background-color : pink;
+    body{
+
+      background-color : pink;
+
+    }
 
 }
