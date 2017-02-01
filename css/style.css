@@ -1,3 +1,9 @@
+body{
+
+  background-color:  yellow;
+
+}
+
 #par1{
 
 background-color : blue;
@@ -20,7 +26,7 @@ background-color : red;
 
     body{
 
-      background-color : pink;
+      background-color : green;
 
     }
 
