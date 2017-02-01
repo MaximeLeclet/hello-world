@@ -2,7 +2,9 @@ body{
 
   background-color:  silver;
   font-size: 5px;
-
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 20% 20%;
 }
 
 h1{
