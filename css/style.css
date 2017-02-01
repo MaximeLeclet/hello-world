@@ -85,6 +85,12 @@ img{
 
     }
 
+    table{
+
+      display: block;
+
+    }
+
 }
 
 @media (min-device-pixel-ratio: 2) {
