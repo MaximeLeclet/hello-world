@@ -50,6 +50,13 @@ img{
 
 }
 
+input{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 @media screen and (max-width: 480px){
 
     body{
@@ -58,9 +65,15 @@ img{
 
     }
 
+    #inputs{
+
+      width: 100%;
+
+    }
+
     input{
 
-      width: 50%;
+      width: 80%;
 
     }
 
