@@ -7,7 +7,7 @@ body{
 header{
 
   width: 300px;
-  background-image: url('img/logo-iut.jpg');
+  background-image: url('../img/logo-iut.jpg');
   background-size: cover;
 
 }
