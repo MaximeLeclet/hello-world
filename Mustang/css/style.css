@@ -1,21 +1,24 @@
 *{
 
   /*background-color: silver;*/
+  margin: auto;
+  font-family: arial,sans-serif;
 
 }
 
 #menu{
 
-  height: 200px;
+  height: 150px;
   width: 100%;
   border-bottom: 2px solid black;
-  line-height: 200px;
 
 }
 
 #menu{
 
-  background-color: #34495e;
+  /*background-color: #34495e;*/
+  background-color: #2D3433;
+  line-height: 150px;
 
 }
 
@@ -27,11 +30,11 @@
 
 #logo{
 
-  width: 20%;
+  width: 25%;
   height: 100%;
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   left : 0px;
   top : 0px;
   float: left;
@@ -44,6 +47,13 @@
   top: 0px;
   float: right;
   height: 100%;
+  margin-right: 15px;
+
+}
+
+#nav ul{
+
+  margin: 0px;
 
 }
 
@@ -53,6 +63,8 @@
   top: 0px;
   float: left;
   height: 100%;
+  color: white;
+  margin-right: 20px;
 
 }
 
@@ -60,8 +72,8 @@
 
   list-style: none;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 
 }
 
@@ -78,5 +90,67 @@
   top : 0px;
   float : right;
   height: 100%;
+
+}
+
+#search input{
+
+  border: 0px;
+  padding: 0px;
+  border-radius: 2px;
+
+}
+
+#content{
+
+  width: 100%;
+  height: 100%;
+
+}
+
+#banniere{
+
+  margin-top: 10px;
+  height: 400px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../img/banniere2.jpg");
+  background-size: cover;
+  border-radius: 2px;
+  border: 2px solid black;
+
+}
+
+#texte{
+
+  margin-top: 10px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: #2D3433;
+
+}
+
+#texte h1{
+
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+}
+
+#texte h1, #texte p{
+
+  color : white;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#texte p{
+
+  margin-bottom: 10px;
 
 }
