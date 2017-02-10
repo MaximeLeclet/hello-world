@@ -224,9 +224,22 @@ body{
 
 }
 
+#formulaire input, #formulaire textarea{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
 #formulaire #prenom, #formulaire #nom, #formulaire #date, #formulaire #ville{
 
-  width: 50%;
+  width: 45%;
+
+}
+
+#formulaire #prenom, #formulaire #date{
+
+  margin-right: 10%;
 
 }
 
