@@ -1,6 +1,5 @@
 *{
 
-  /*background-color: silver;*/
   margin: auto;
   font-family: arial,sans-serif;
   box-sizing: border-box;
@@ -188,15 +187,16 @@ body{
 
   border-radius: 2px;
   width: 80%;
-  /*border: 2px solid black;*/
 
 }
 
 #options{
 
-  margin-top: 15px;
-  width: 98%;
-  min-height: 400px;
+  margin-top: 5px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 2px;
+
 
 }
 
@@ -207,7 +207,18 @@ body{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 500px;
+
+}
+
+#map{
+
+  border-right: 1px solid black;
+
+}
+
+#map h1{
+
+  text-align: center;
 
 }
 
@@ -215,6 +226,25 @@ body{
 
   width: 98%;
   height: 450px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+
+}
+
+#formulaire h1{
+
+  text-align: center;
+
+}
+
+#formulaire form{
+
+  margin-top: 15px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -259,5 +289,35 @@ body{
 #formulaire #envoyer{
 
   float: right;
+
+}
+
+#footer{
+
+  border-top: 2px solid black;
+  background-color: #2D3433;
+  color : white;
+  text-align: right;
+  padding-bottom: 15px;
+  /*margin-bottom: 15px;*/
+
+}
+
+#footer h3{
+
+  margin-top: 15px;
+  margin-right: 25px;
+
+}
+
+@media screen and (max-width: 480px){
+
+    #logo{
+
+      display: block;
+      /*width: 100%;*/
+      background-size: none;
+
+    }
 
 }
